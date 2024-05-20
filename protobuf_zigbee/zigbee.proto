@@ -1,0 +1,1 @@
+syntax = "proto3";message Zigbee_t {  LedZigbee_t led =1;   bool sync =2;} message LedZigbee_t {  uint32 DeviceID=1;   uint64 Endpoint=2;  bool status = 3;}
